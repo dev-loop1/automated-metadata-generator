@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# Streamlit secrets file (good practice)
+.streamlit/secrets.toml
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
