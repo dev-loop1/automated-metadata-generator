@@ -39,7 +39,7 @@ def summarize_text_with_llm(text):
         chat_history = [{"role": "user", "parts": [{"text": prompt}]}]
         payload = {"contents": chat_history}
 
-        api_key = "AIzaSyCSOwChGIOGo0k6OismCWhrGM3LAMucvmc"
+        api_key = ""
         
         if api_key == "null":
             return "ERROR: API Key not provided."
